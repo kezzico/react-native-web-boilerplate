@@ -5,6 +5,8 @@ module.exports = {
 		main: './index.web.js',
 	},
 	module: {
+	#loaders are depr3cated
+	#replaced by rules
 		loaders: [{
 			test: /\.js?$/,
 			exclude: /node_modules/,
