@@ -3,6 +3,7 @@
 Install
 
 ```
+nvm use v14.15
 npm install
 ```
 
@@ -10,7 +11,7 @@ npm install
 Run Web
 
 ```
-./node_modules/.bin/webpack-dev-server -inline
+webpack-cli serve
 
 ```
 

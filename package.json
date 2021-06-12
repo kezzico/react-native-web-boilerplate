@@ -5,6 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+		"web": "webpack-cli serve",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
